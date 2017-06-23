@@ -3,7 +3,6 @@ Function: AWS Lambda function to count Orphaned IP's and EC2 instances
 
 
 ## Lambda-Instance-Count
-## =================
 
 A utility AWS lambda function to count Orphaned IP's and EC2 instances and pushes the metrics to Cloudwatch.
 
