@@ -2,14 +2,14 @@
 Function: AWS Lambda function to count Orphaned IP's and EC2 instances
 
 
-#Lambda-Instance-Count
-#=================
+## Lambda-Instance-Count
+## =================
 
 A utility AWS lambda function to count Orphaned IP's and EC2 instances and pushes the metrics to Cloudwatch.
 
 The Lambda function takes new backups when executed, and manages the deletion of the old ones when the upper limit is reached.
 
-## Dependencies
+### Dependencies
 
 The tool uses the supplied `boto3` library to connect to the AWS account.
 ```
@@ -18,13 +18,13 @@ The tool uses the supplied `boto3` library to connect to the AWS account.
 ```
 The role requires.......
 
-## Lambda Deployment
+### Lambda Deployment
 
 Create a Lambda function.
 Runtime - Python 2.7
 Handler - lambda_function.lambda_handler
 
-# Configuring the lambda Function
+### Configuring the lambda Function
 
 The configuration of the lambda is simple
 
